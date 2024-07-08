@@ -1,8 +1,12 @@
-header {
-    display: flex;
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
-.navbar ul {
-    display: flex;
-    list-style: none;
-}
+.grid-picture {
+    margin: 0;
+    padding: 0;
+  }
+
